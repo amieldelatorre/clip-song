@@ -3,6 +3,9 @@ import clip
 import asyncio
 
 
+song = "<example_song>"
+
+
 async def main():
     await clip.download_clip(song)
 
